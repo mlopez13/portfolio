@@ -21,7 +21,7 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#personal_projects" class="nav__link">Personal Projects</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#work_experience" class="nav__link">Work Experience</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
@@ -45,10 +45,37 @@
 
   <main role="main">
 
-    <section class="personal_projects" id="personal_projects">
+    <section class="projects" id="projects">
       <div class="row">
-        <h2>Personal Projects</h2>
+        <h2>Projects</h2>
         <div class="pp__boxes">
+
+          <div class="pp__box">
+            <div class="pp__text">
+              <h3>Fine-tuning an LLM to guess Harry Potter characters</h3>
+              <p>
+                Starting from DistilBERT for Sequence Classification, available in Hugging Face, I trained my instance of this LLM model to guess what Harry Potter character said which line. I am currently working on reducing the model's overfitting.
+              </p>
+              <ul class="pp__list">
+                <li>Python</li>
+                <li>PyTorch</li>
+              </ul>
+
+              <div class="pp__links">
+                <a>
+                  Link to the Repo <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/mlopez13/character_guesser" target="_blank">
+                  <img src="./images/github.svg" class="pp__code" title="Fine-tuning LLM project" alt="GitHub">
+                </a>
+              </div>
+            </div>
+
+            <div class="pp__image-box">
+              <img src="./images/character_guesser.png" class="pp__image" alt="Fine-tuning LLM" />
+            </div>
+
+          </div>
 
           <div class="pp__box">
             <div class="pp__text">
@@ -95,34 +122,6 @@
 
             <div class="pp__image-box">
               <img src="./images/tsa.png" class="pp__image" alt="TSA" />
-            </div>
-
-          </div>
-
-          <div class="pp__box">
-            <div class="pp__text">
-              <h3>Videogame inspired by Rock-Paper-Scissors</h3>
-              <p>
-                In order to develop my OOP with Python, I have followed a PyGame tutorial by <a href="https://www.youtube.com/dafluffypotato" target="_blank">DaFluffyPotato</a> and developed a videogame based on Rock-Paper-Scissors.
-              </p>
-              <ul class="pp__list">
-                <li>Python</li>
-                <li>Pygame</li>
-                <li>OOP</li>
-              </ul>
-
-              <div class="pp__links">
-                <a>
-                  Link to the Repo <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/mlopez13/rps_morpher" target="_blank">
-                  <img src="./images/github.svg" class="pp__code" title="Rock-Paper-Scissors project" alt="GitHub">
-                </a>
-              </div>
-            </div>
-
-            <div class="pp__image-box">
-              <img src="./images/rps.png" class="pp__image" alt="Project 3" />
             </div>
 
           </div>
